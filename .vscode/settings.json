@@ -1,0 +1,11 @@
+{
+    "files.associations": {
+        "ostream": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "enabled",
+    "cmake.configureOnOpen": true,
+    "code-runner.executorMap": {
+        "cpp": "cd $dir && g++ *.cpp -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+    },
+    
+}
