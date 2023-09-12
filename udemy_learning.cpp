@@ -13,8 +13,7 @@ int main()
     cout << "The current user's name is: " << ahmed_account.get_name() << " and his current balance is: " << ahmed_account.get_balance() << endl;
 
     if (ahmed_account.deposit(500.0)) {
-        cout << "In deposit\nThe new balance is: " << ahmed_account.get_balance() << endl;
-    }
+        cout << "In deposit\nThe new balance is: " << ahmed_account.get_balance() << endl; }
     
     else {
         cout << "Unable to deposit\nThe Current balance is: " << ahmed_account.get_balance() << endl;
